@@ -1,0 +1,33 @@
+
+# Large files
+data/
+models/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+*.env
+secrets.yaml
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+runs/
+
